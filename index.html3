@@ -1,0 +1,201 @@
+﻿<!DOCTYPE html>
+<html>
+
+
+
+		
+		<head>
+		
+		
+		
+		
+     <meta charset="utf-8" />
+		<title>KasperStudio</title>
+		<link href="Images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+		<link rel="stylesheet" type="text/css" href="css/asmeninis.css">
+       <link rel="stylesheet" href="css/galerija.css">
+	   
+	   
+	   <link type="text/css" rel="stylesheet" href="css/demo2.css" />
+		<link type="text/css" rel="stylesheet" href="dist/css/jquery.mmenu.all.css">
+<script type="text/javascript" src="http://code.jquery.com/jquery-2.2.0.js"></script>
+
+		<script type="text/javascript" src="dist/js/jquery.mmenu.all.min.umd.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('nav#menu').mmenu();
+			});
+			
+			
+		</script>
+
+        
+         <!-- paginacija -->
+<meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="css/jPages.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/github.css">
+
+
+  <script type="text/javascript" src="js/highlight.pack.js"></script>
+  <script type="text/javascript" src="js/tabifier.js"></script>
+
+  <script src="js/jPages.js"></script>
+        
+        
+ 
+
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" type="text/css" media="screen">
+<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js"></script>
+
+<!-- Add mousewheel plugin (this is optional) -->
+<script type="text/javascript" src="fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script> 
+</head>
+
+<body>	
+
+<div id="konteineris">
+				<div id="header">
+				<a href="index.html"><img  id="logo" src="Images/log2.png" alt="Mazas logo" width="100"></a>
+					<a href="index.html"><img id="pav" src="Images/lolgo3.png" alt="Pagr. logotipas" width="420"  ></a>
+</div>
+<div id="wrap">
+		<ul class="navbar">
+			<li><a id="test" href="austina_pagrc.html"></a></li>
+			<li><a id="test2" href="#"></a></li>
+			<li><a href="#">Dėklai</a></li>
+			<li><a id="test3" href="#"></a>
+					<ul>
+						<li><a href="#">Svetainės</a></li>
+						<li><a href="#">Animacija</a></li>
+						<li><a href="#">Grafinis dizainas</a></li>
+					</ul>
+			</li>
+			<li><a href="#">Draugai</a>
+					<ul>
+						<li><a href="#">Gėlės</a></li>
+						<li><a href="#">Muzikantai</a></li>
+						<li><a href="#">Ferverkai</a></li>
+					</ul>
+			</li>
+			<li><a href="index.html#kontaktai">Kontaktai</a></li>
+
+		</ul>
+</div>
+
+		<div id="page">
+			<div class="header">
+				<a href="#menu"></a>
+			</div>
+			
+
+			<nav id="menu">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#about">Apie mus</a></li>
+							<li><a  href="austina_pagrc.html">Fotografavimas</a></li>
+							<li><a id="test2" href="#"></a></li>
+								<li><a href="#">Medijos </a>
+					<ul>
+						<li><a href="#">Svetainės</a></li>
+						<li><a href="#">Animacija</a></li>
+						<li><a href="#">Grafinis dizainas</a></li>
+					</ul>
+			</li>
+					
+
+					<li><a href="#">Dėklai</a></li>
+								<li><a href="#">Draugai</a>
+					<ul>
+						<li><a href="#">Gėlės</a></li>
+						<li><a href="#">Muzikantai</a></li>
+						<li><a href="#">Ferverkai</a></li>
+					</ul>
+			</li>
+			<li><a href="#">KASKAS</a></li>
+								<li><a href="index.html#kontaktai">Kontaktai</a></li>
+				</ul>
+			</nav>
+			</div>
+
+<div id="straip">
+
+<div id="straipf">
+			<div id="a5">
+					 <div class="eile1 remaipagr"><a href="austina_pagrc.html"><img src="Images/austina.jpg" alt="Smiley face"  ></a><h4> Fotografavimas </h4></div>
+			<div class="eile1 remaipagr"><img src="Images/raimis.jpg" alt="Smiley face"  ><h4> Filmavimas </h4> </div>
+<div class="eile1 remaipagr"><img src="Images/vestuviup.jpg" alt="Smiley face"  > <h4>Puokštės</h4></div>
+			<div class="eile1 remaipagr"><img src="Images/medijos.jpg" alt="Smiley face"  ><h4> Medijos</h4></div>
+
+<div class="eile1 remaipagr"><img src="Images/knyga.jpg" alt="Smiley face"  ><h4> Dėklai</h4></div>
+
+				<div class="eile1 remaipagr"><img src="Images/ausines.jpg" alt="Smiley face"  ><h4> Muzikantai </h4></div>
+
+			</div>
+			
+
+</div>
+
+</div>
+
+<!--<div id="reklamas">
+		<img src="http://www.fejerverkai.info/fejerverkai-gimtadieniui.jpg" alt="Smiley face" > 
+		<img src="http://www.fotodonatas.lt/wp-content/uploads/2014/10/pavyzdine-fotoknyga-7.jpg" alt="Smiley face" > 
+		<img src="http://dvarelis.lt/images/Image/vestuviu_muzikantai16.jpg" alt="Smiley face" width="250"  > 
+		<img src="http://www.fotoromantika.lt/parodos/musu_vestuves_2011/vestuviu_puokstes.jpg" alt="Smiley face"  > 
+		<img src="http://www.fejerverkai.info/fejerverkai-gimtadieniui.jpg" alt="Smiley face" > 
+		<img src="http://www.fotodonatas.lt/wp-content/uploads/2014/10/pavyzdine-fotoknyga-7.jpg" alt="Smiley face" > 
+		<img src="http://dvarelis.lt/images/Image/vestuviu_muzikantai16.jpg" alt="Smiley face" width="250"  > 
+		<img src="http://www.fotoromantika.lt/parodos/musu_vestuves_2011/vestuviu_puokstes.jpg" alt="Smiley face"  > 
+		
+ </div>-->
+<div id="komanda">
+<h2 id="kt">Musu komanda</h2>
+  <div id="komandal">
+  <div class="rutuliukaiisore"><a href="austina_pagrc.html"><div class="rutuliukai"></div></a><h3>Austina</h3><p>Fotografė</p></div>
+  <div class="rutuliukaiisore"><a href="austina_pagrc.html"><div class="rutuliukai2"></div></a><h3>Raimis</h3><p>Filmuotojas</p></div>
+  <div class="rutuliukaiisore"><a href="austina_pagrc.html"><div class="rutuliukai3"></div></a><h3>Deividas</h3><p>Medijos</p></div>
+</div>
+ </div>
+ 
+ 
+ <div id="aprasas">
+  <div id="pagrtekstas">
+  <h1>Sveiki atvykę į KasperStudio tinklalapį </h1>
+
+			<p>KASPER STUDIO — tai filmavimo, fotografavimo ir montavimo paslaugas teikianti studija.
+				 Mūsų užduotis – ne tik įamžinti Jūsų šventę, bet sukurti įsimintinus kadrus, kuriuos žiūrėdami po daugelio metų Jūs jausite nesuvaidintas emocijas ir tos dienos jaukius prisiminimus.
+				 Dirbame dviese, filmuotojas Raimis ir fotografė Austina. 
+				 Vienas kitą suprantame iš pusės žodžio, todėl tikrai nepraleisime svarbiausių šventės momentų. Nesame profesionalai, tačiau žmonėms patinka mūsų darbai. 
+				 Mes prisitaikome prie aplinkos ir prie žmonių ,neverčiame  jų  dirbtinai pozuoti, tačiau patariame ir aišku duodame jiems naudingų patarimų.  
+				 Tiesiog šventės metu būkite savimi, o visa kita - tai jau mūsų.
+			</p>
+  </div>
+  
+  <div class="rutuliukaiisore2"><img src="Images/vestuves.jpg" alt="Smiley face"  ><p><h3>Vestuves	</h3></p><h3><p><span class="baltast"><br></span></h3></p><h3><p><span class="baltast"><br><br></span></h3></p></div>
+   <div class="rutuliukaiisore2"><img src="Images/gimt.jpg" alt="Smiley face"  >	<p><h3>Gimtadienius</h3></p><h3><p>Jubiliejus	</h3></p><h3></h3></p><h3><p><br><br></h3></p></div>
+    <div class="rutuliukaiisore2"><img src="Images/k.jpg" alt="Smiley face"  >		<p><h3>Krikstynas	</h3></p><h3><p><span class="baltast"><br></span></h3></p><h3><p><span class="baltast"><br><br></span></h3></p></div>
+	 <div class="rutuliukaiisore2">
+<img src="Images/kit2.jpg" alt="Smiley face"  >
+	 <p><h3>Mergvakarius</h3></p><h3><p>Bernvakarius</h3></p><h3><p>Bei kitas, jums svarbias akimirkas</h3></p></div>
+ </div>
+
+ <div id="kontaktai">
+ <img  id="kontaktail" src="Images/kontaktal.png" alt="Mazas logo" width="350">
+ <h2 class="kontaktaih2">Kontaktai</h2>
+  <div class="kontaktaih"><img  src="Images/log2.png" alt="Mazas logo" width="100"><h5 class="kontaktaih">Austina Tel: 484646464</h5></div>
+    <div class="kontaktaih"><img  src="Images/log2.png" alt="Mazas logo" width="100"><h5 class="kontaktaih">Raimis Tel: 4546545654</h5></div>
+	<div class="kontaktaih"><img  src="Images/log2.png" alt="Mazas logo" width="100"><h5 class="kontaktaih">El.p. kasperkino@gmail.com</h5></div>
+
+ </div>
+ <div id="footer">
+		<p>	<a href="austina_pagrc.html#konteineris"><span id="meniu">Meniu</span></a>
+		<a href="https://www.facebook.com/austinosphotography"><img  style="vertical-align:top" src="Images/fb.png" alt="Smiley face" ></a> 
+		KasperStudio&#169;2015 <a href="login2.php"></p>
+ </div>
+ 
+ 
+ </div>
+</body>
+</html>

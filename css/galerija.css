@@ -1,0 +1,183 @@
+
+.galerijos-item{
+     display: inline-block;
+   	width:13%;  
+	
+     padding-bottom: 0.2%;
+ }
+
+
+
+
+#knuotraukas img{
+	
+        width:100%;
+       
+      background-color: #fff;
+	padding:  2%;			
+				
+}
+.galerijos-item:hover{ transition: all .4s ease-in-out;
+transform: scale(1.1);
+}
+
+.galerijos-item img:hover { 
+    
+   
+}
+#knuotraukas img:hover{ transition: all .4s ease-in-out;
+background-color:#330033;
+
+	}
+	@media (max-width:320px){
+		
+.galerijos-item{
+	
+   	width:90%;  
+ }
+		#a6{display:none;}
+			
+	}
+	
+			@media (min-width: 321px) and (max-width: 412px) {
+
+			
+			#knuotraukas{
+				
+margin:-3% auto;			
+				
+}
+			.galerijos-item{
+   	width:48.5%;  
+margin-bottom:-20%;
+     padding-bottom: 0%;
+
+			}
+			#knuotraukas img{
+	margin-bottom:-5%;
+        width:100%;
+
+      background-color: #fff;
+	padding:  2%;			
+				
+}
+			
+			#a6{display:none;}	
+			
+			}
+						@media (min-width: 412px) and (max-width: 455px) {
+
+			
+			#knuotraukas{
+				
+margin:-3% auto;			
+				
+}
+			.galerijos-item{
+   	width:48.5%;  
+margin-bottom:-20%;
+     padding-bottom: 0%;
+
+			}
+			#knuotraukas img{
+	margin-bottom:-3%;
+        width:100%;
+
+      background-color: #fff;
+	padding:  2%;			
+				
+}
+			
+			#a6{display:none;}	
+			
+			}
+			
+			
+						@media (min-width: 456px) and (max-width: 767px) {
+	
+			
+						#knuotraukas{
+					
+margin:0 0 3% 0;			
+				width:100.5%;
+						}
+					.galerijos-item{
+   	width:48.5%;  
+
+     padding-bottom: 0%;
+
+			}
+			#knuotraukas img{
+	margin-bottom:-9%;
+        width:100%;
+
+      background-color: #fff;
+	padding:  2%;			
+				
+}
+				#a6{display:none;}
+						}				
+								@media (min-width: 768px) and (max-width: 913px) {
+	
+					#a6{display:none;}
+						#knuotraukas{
+margin:0 0 -1% 0;					
+				width:100.5%;
+						}
+					.galerijos-item{
+   	width:32.4%;  
+margin-bottom:-20%;
+     padding-bottom: 0%;
+
+			}
+			#knuotraukas img{
+	margin-bottom:-5%;
+        width:100%;
+
+      background-color: #fff;
+	padding:  2%;			
+				
+}
+			
+									
+						#a6{display:none;}	
+						
+						}
+						
+														@media (min-width: 914px) and (max-width: 1023px) {
+	
+			#a6{display:none;}
+						#knuotraukas{
+margin:0 0 -0.5% 0;	
+				width:100.5%;
+						}
+					.galerijos-item{
+   	width:32.5%;  
+margin-bottom:-20%;
+     padding-bottom: 0%;
+
+			}
+			#knuotraukas img{
+	margin-bottom:-5%;
+        width:100%;
+
+      background-color: #fff;
+	padding:  2%;			
+				
+}
+			
+														}							
+						
+						
+			@media (min-width: 1024px) and (max-width: 1280px) {		
+			#a6{margin-bottom:15%;}
+									.galerijos-item{
+   	width:18.2%;  
+
+
+			}
+						#knuotraukas{
+margin-top:5%;
+				width:100%;
+						}
+			}	

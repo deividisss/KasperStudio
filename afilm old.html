@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="lt">
+    <head>
+        <title>KasperStudio</title>
+		
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="Slicebox - 3D Image Slider with Fallback" />
+        <meta name="keywords" content="jquery, css3, 3d, webkit, fallback, slider, css3, 3d transforms, slices, rotate, box, automatic" />
+		<meta name="author" content="Pedro Botelho for Codrops" />
+	<link href="Images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/slicebox.css" />
+		<link rel="stylesheet" type="text/css" href="css/custom.css" />
+				<link rel="stylesheet" type="text/css" href="css/filmukai.css">
+		<script type="text/javascript" src="js/modernizr.custom.46884.js"></script>
+	
+			
+			
+<!-- Add fancyBox -->
+		<script src="script/ksScript.js"></script>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<link rel="stylesheet" href="fancybox/source/jquery.fancybox2.css" type="text/css" media="screen">
+<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js"></script>
+
+	</head>
+	<body>
+	<div id="konteineris">
+					<div id="header">
+<a href="index.html"><img  id="logo" src="Images/log2.png" alt="Mazas logo" width="100"> </a>
+					<a href="index.html"><img id="pav"src="Images/lolgo3.png" alt="Pagr. logotipas" width="420"  >  </a>
+</div>
+<div id="wrap">
+		<ul class="navbar">
+			<li><a id="test" href="austina_pagrc.html"></a></li>
+			<li><a id="test2" href="#"></a></li>
+			<li><a href="#">DEKLAI</a></li>
+			<li><a id="test3" href="#"></a>
+					<ul>
+						<li><a href="#">SVETAINES</a></li>
+						<li><a href="#">ANIMACIJA</a></li>
+						<li><a href="#">GRAFINIS DIZAINAS</a></li>
+					</ul>
+			</li>
+			<li><a href="#">DRAUGAI</a>
+					<ul>
+						<li><a href="#">GELES</a></li>
+						<li><a href="#">MUZIKANTAI</a></li>
+						<li><a href="#">FERVERKAI</a></li>
+					</ul>
+			</li>
+		</ul>
+</div>
+
+		<div class="container">
+		
+			<div class="wrapper">
+
+<br>
+<br>
+	<ul id="sb-slider" class="sb-slider">
+					<li>
+						<a class="fancybox fancybox.iframe" rel="group" href="https://www.youtube.com/embed/v34McNv0qGA" >
+							<img src="Images/filmukas3.jpg" width="700" height="350"></a>
+						<div class="sb-description">
+							<h3>Vestuvių filmukas</h3>
+						</div>
+					</li>
+					<li>
+				<a class="fancybox fancybox.iframe" rel="group" href="https://www.youtube.com/embed/hIfgEYbzTvI" >
+							<img src="Images/filmukas1.jpg" width="700" height="350"></a>
+						<div class="sb-description">
+							<h3>Krikstynų filmukas</h3>
+						</div>
+					</li>
+					<li>
+										<a class="fancybox fancybox.iframe" rel="group" href="http://www.youtube.com/embed/TePYR5nsxQg?autohide=1" >
+									<img src="Images/filmukas2.jpg" width="700" height="350"></a>
+						<div class="sb-description">
+							<h3>Pristatomasis video</h3>
+						</div>
+					</li>
+		
+
+	
+				</ul>
+
+				<div id="shadow" class="shadow"></div>
+
+				<div id="nav-arrows" class="nav-arrows">
+					<a href="#">Next</a>
+					<a href="#">Previous</a>
+				</div>
+
+				<div id="nav-dots" class="nav-dots">
+					<span class="nav-dot-current"></span>
+					<span></span>
+					<span></span>
+				
+				
+			
+				</div>
+
+			</div><!-- /wrapper -->
+
+
+
+		</div>
+				
+<div id="straip">
+		
+			<div id="straipf">
+
+			<div id="a5">
+				<div class="remai"><a href="austina_pagrc.html#logoah"><img src="Images/aust2.jpg" alt="Smiley face"  ></a><h4>Apie mane</h4></div>
+				<div class="remai"><a href="gvestuviu.php"><img src="Images/austina4.jpg" alt="Smiley face"></a><h4> Vestuvės </h4></div>
+				<div class="remai"><a href="gkrikstynu.php"><img src="Images/austina12.jpg" alt="Smiley face"></a><h4>Krikštynos</h4></div>
+				<div class="remai"><a href="gfotosesiju.php"><img src="Images/austina5.jpg" alt="Smiley face"></a><h4>Fotosesijos</h4></div>
+				<div class="remai"><a href="kainorastis.html"><img src="Images/austina3.jpg" alt="Smiley face"  ></a><h4>Kainoraštis</h4></div>
+				<div class="remai"><img src="Images/filmukai.jpg" alt="Smiley face"  ><h4> Filmukai</h4> </div>
+			</div>
+			
+	</div>
+		</div>
+
+ <div id="footer">
+		<p>KasperStudio&#169;2015 <a href="login2.php"><img id="loginas" src="Images/log3.png" alt="Smiley face" ></a></p>
+ </div>
+ 
+ </div>
+		
+		<script type="text/javascript" src="js/jquery.slicebox.js"></script>
+		<script type="text/javascript">
+		
+			$(function() {
+
+				var Page = (function() {
+
+					var $navArrows = $( '#nav-arrows' ).hide(),
+						$navDots = $( '#nav-dots' ).hide(),
+						$nav = $navDots.children( 'span' ),
+						$shadow = $( '#shadow' ).hide(),
+						slicebox = $( '#sb-slider' ).slicebox( {
+							onReady : function() {
+
+								$navArrows.show();
+								$navDots.show();
+								$shadow.show();
+
+							},
+							onBeforeChange : function( pos ) {
+
+								$nav.removeClass( 'nav-dot-current' );
+								$nav.eq( pos ).addClass( 'nav-dot-current' );
+
+							}
+						} ),
+						
+						init = function() {
+
+							initEvents();
+							
+						},
+						initEvents = function() {
+
+							// add navigation events
+							$navArrows.children( ':first' ).on( 'click', function() {
+
+								slicebox.next();
+								return false;
+
+							} );
+
+							$navArrows.children( ':last' ).on( 'click', function() {
+								
+								slicebox.previous();
+								return false;
+
+							} );
+
+							$nav.each( function( i ) {
+							
+								$( this ).on( 'click', function( event ) {
+									
+									var $dot = $( this );
+									
+									if( !slicebox.isActive() ) {
+
+										$nav.removeClass( 'nav-dot-current' );
+										$dot.addClass( 'nav-dot-current' );
+									
+									}
+									
+									slicebox.jump( i + 1 );
+									return false;
+								
+								} );
+								
+							} );
+
+						};
+
+						return { init : init };
+
+				})();
+
+				Page.init();
+				
+
+			});
+			
+$.Slicebox.defaults = {
+	// (v)ertical, (h)orizontal or (r)andom
+	orientation : 'r',
+
+	// perspective value
+	perspective : 1200,
+
+	// number of slices / cuboids
+	// needs to be an odd number 15 => number > 0 (if you want the limit higher, 
+	// change the _validate function).
+	cuboidsCount : 3,
+
+	// if true then the number of slices / cuboids is going to be random (cuboidsCount is overwitten)
+	cuboidsRandom : true,
+
+	// the range of possible number of cuboids if cuboidsRandom is true
+	// it is strongly recommended that you do not set a very large number :)
+	maxCuboidsCount : 5,
+
+	// each cuboid will move x pixels left / top (depending on orientation). 
+	// The middle cuboid doesn't move. the middle cuboid's neighbors will 
+	// move disperseFactor pixels
+	disperseFactor : 0,
+
+	// color of the hidden sides
+	colorHiddenSides : '#222',
+
+	// the animation will start from left to right. The left most 
+	// cuboid will be the first one to rotate
+	// this is the interval between each rotation in ms
+	sequentialFactor : 150,
+
+	// animation speed
+	// this is the speed that takes "1" cuboid to rotate
+	speed : 600,
+
+	// transition easing
+	easing : 'ease',
+
+	// if true the slicebox will start the animation automatically
+	autoplay : false,
+
+	// time (ms) between each rotation, if autoplay is true
+	interval: 3000,
+
+	// the fallback will just fade out / fade in the items
+	// this is the time fr the fade effect
+	fallbackFadeSpeed : 300,
+	
+	// callbacks
+	onBeforeChange : function( position ) { return false; },
+	onAfterChange : function( position ) { return false; }
+};
+			
+			
+			
+			
+				$(document).ready(function() {
+		$(".fancybox").fancybox();
+		$(".fancybox")
+    .attr('rel', 'gallery')
+    .fancybox({
+        padding : 3,
+		width:'75%',
+		height:'90%',
+			 openEffect  : 'none',
+        closeEffect : 'none',
+        nextEffect  : 'none',
+        prevEffect  : 'none',
+		arrows : true,
+        margin      : [20, 60, 20, 60] // Increase left/right margin
+    });
+	});
+
+		</script>
+		
+
+	</body>
+</html>	

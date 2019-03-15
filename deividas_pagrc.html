@@ -1,0 +1,236 @@
+﻿<?php
+echo "My first PHP script!";
+?>
+
+<!DOCTYPE html>
+<html>
+<?php
+echo "My first PHP script!";
+?>
+<head>
+		<title>KasperStudio</title>
+              <meta charset="utf-8" />
+		<link href="Images/favicon2.ico" rel="shortcut icon" type="image/x-icon" />
+		<link rel="stylesheet" type="text/css" href="css/asmeninis.css">
+		<script src="script/ksScript.js"></script>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+
+		<link type="text/css" rel="stylesheet" href="css/demo2.css" />
+		<link type="text/css" rel="stylesheet" href="dist/css/jquery.mmenu.all.css">
+<script type="text/javascript" src="http://code.jquery.com/jquery-2.2.0.js"></script>
+
+		<script type="text/javascript" src="dist/js/jquery.mmenu.all.min.umd.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('nav#menu').mmenu();
+			});
+		</script>
+
+<!-- Add fancyBox -->
+
+<link rel="stylesheet" href="fancybox/source/jquery.fancybox.css" type="text/css" media="screen">
+<script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js"></script>
+
+
+
+
+
+<script src="src/js/jquery.swipebox.js"></script>
+
+  <link rel="stylesheet" href="src/css/swipebox.css">
+  
+  <link rel="stylesheet" href="dist/css/lightbox.min.css">
+  
+  
+  <script type="text/javascript">
+  if ($.fn.swipebox) {
+
+    //Get largest dimension in viewport pixels
+    var maxSize = Math.max(document.documentElement.clientWidth, 
+                           document.documentElement.clientHeight);
+    maxSize *= window.devicePixelRatio ? window.devicePixelRatio : 1;
+    //Limit to 2048.
+    maxSize = Math.min(2048,maxSize); 
+    //Round up to multiple of 160 for cache efficiency (~13 variations)
+    maxSize = maxSize - (maxSize % 160) + 160;
+
+    //Set the width and height (if present) to maxSize
+    $("a.swipebox").each(function(i,e){
+        e.href = e.href.replace(/width=\d+/,"width=" + maxSize).replace(/height=\d+/,"height=" + maxSize);
+      });
+    //Launch swipebox
+    $(".swipebox").swipebox({useCSS:true, hideBarsDelay:0});
+  }
+</script>
+
+
+</head>
+
+<body>	
+
+<div id="konteineris">
+				<div id="header">
+<a href="index.html"><img  id="logo" src="Images/log2.png" alt="Mazas logo" width="100"> </a>
+					<a href="index.html"><img id="pav"src="Images/lolgo3.png" alt="Pagr. logotipas" width="420"  >  </a>
+</div>
+
+
+
+
+<div id="wrap">
+		<ul class="navbar">
+			<li><a id="test" href="austina_pagrc.html"></a></li>
+			<li><a id="test2" href="#"></a></li>
+			<li><a href="#">Dėklai</a></li>
+			<li><a id="test3" href="#"></a>
+					<ul>
+						<li><a href="#">Svetainės</a></li>
+						<li><a href="#">Animacija</a></li>
+						<li><a href="#">Grafinis dizainas</a></li>
+					</ul>
+			</li>
+			<li><a href="#">Draugai</a>
+					<ul>
+						<li><a href="#">Gėlės</a></li>
+						<li><a href="#">Muzikantai</a></li>
+						<li><a href="#">Ferverkai</a></li>
+					</ul>
+			</li>
+			<li><a href="index.html#kontaktai">Kontaktai</a></li>
+
+		</ul>
+</div>
+
+		<div id="page">
+			<div class="header">
+				<a href="#menu"></a>
+			</div>
+			
+
+			<nav id="menu">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#about">Apie mus</a></li>
+							<li><a  href="austina_pagrc.html">Fotografavimas</a></li>
+							<li><a id="test2" href="#"></a></li>
+								<li><a href="#">Medijos </a>
+					<ul>
+						<li><a href="#">Svetainės</a></li>
+						<li><a href="#">Animacija</a></li>
+						<li><a href="#">Grafinis dizainas</a></li>
+					</ul>
+			</li>
+					
+
+					<li><a href="#">Dėklai</a></li>
+								<li><a href="#">Draugai</a>
+					<ul>
+						<li><a href="#">Gėlės</a></li>
+						<li><a href="#">Muzikantai</a></li>
+						<li><a href="#">Ferverkai</a></li>
+					</ul>
+			</li>
+			<li><a href="#">KASKAS</a></li>
+								<li><a href="index.html#kontaktai">Kontaktai</a></li>
+				</ul>
+			</nav>
+		</div>
+<div id="straip">
+<!--
+<video width="100%"  autoplay>
+<source src="roling_1.mp4" type="video/mp4"></source>
+  <source src="roling_1.webm" type="video/webm"></source>
+Your browser does not support the video tag.
+</video>
+-->
+<!--
+<div class="sketchfab-embed-wrapper"><iframe width="100%" height="700px" 
+src="https://sketchfab.com/models/3f0df5c856404c6db38ab9413dcc7e73/embed" 
+frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" 
+webkitallowfullscreen="true" onmousewheel=""></iframe>
+
+<iframe width="100%" height="700px" 
+src="https://sketchfab.com/models/e9efc0d5e2604fdcbf657d24ed8fc1d0/embed" 
+frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" 
+webkitallowfullscreen="true" onmousewheel=""></iframe>
+</div>
+
+-->
+
+<!--<div id="videoDiv" >
+ <div id="videoBlock">
+<video width="100%"  autoplay="autoplay" loop="loop">
+
+<source src="roling_1.mp4" type="video/mp4"></source>
+  <source src="roling_1.webm" type="video/webm"></source>
+</video>
+ <div id="videoMessage">
+ <h1>Modernūs reklamos</h1>
+ <h2>sprendimai</h2>
+ <h3></h3>
+ <p class="videoClick" >
+ <a href="">Meniu</a>
+ </p>
+ </div>
+ </div>
+ </div>-->
+ <div id="videoDiv" >
+<video id="video"   autoplay="autoplay" loop="loop">
+
+<source src="roling_1.mp4" type="video/mp4"></source>
+  <source src="roling_1.webm" type="video/webm"></source>
+</video>
+
+ <div id="videoMessage">
+ 		<div class="grid__item color-11">
+ <a class="link link--yaku" href="#">
+ <h1><span>M</span><span>o</span><span>d</span><span>e</span><span>r</span><span>n</span><span>ū</span><span>s</span><span>&nbsp;</span><span>r</span><span>e</span><span>k</span><span>l</span><span>a</span><span>m</span><span>o</span><span>s</span></h1>
+ <h2><span>s</span><span>p</span><span>r</span><span>e</span><span>n</span><span>d</span><span>i</span><span>m</span><span>a</span><span>i</span></h2>
+ <h3></h3>
+ </a>
+ 
+ <p class="videoClick" >
+ <a href="">Meniu</a>
+ </p>
+ </div>
+ </div>
+ 
+ <p>gdsgdsg</p>
+
+<!--<video width="100%"  autoplay="autoplay" loop="loop">
+
+<source src="roling_1.mp4" type="video/mp4"></source>
+  <source src="roling_1.webm" type="video/webm"></source>
+</video>
+-->	
+
+				<a class="link link--yaku" href="#">
+					<span>Y</span><span>a</span><span>k</span><span>u</span>					
+				</a>
+		
+ 
+ </div>
+
+ <div id="footer">
+		<p>	<a href="austina_pagrc.html#konteineris"><span id="meniu">Meniu</span></a>
+		<a href="https://www.facebook.com/austinosphotography"><img  style="vertical-align:top" src="Images/fb.png" alt="Smiley face" ></a> 
+		KasperStudio&#169;2015 <a href="login2.php"><img id="loginas" src="Images/log3.png" alt="Smiley face" ></a></p>
+ </div>
+ 
+ </div>
+</body>
+ <script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+		$(".fancybox")
+    .attr('rel', 'gallery')
+    .fancybox({
+        padding : 3,
+		width:'80%',
+		
+    });
+	});
+
+</script>
+</html>
